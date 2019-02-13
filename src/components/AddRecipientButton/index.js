@@ -7,7 +7,7 @@ export default function AddRecipientButton() {
   return (
     
   <button className="AddRecipientButton">
-  Add Contact
+  + Add Contact
   </button>
 
   // <div className="AddRecipientButton">
