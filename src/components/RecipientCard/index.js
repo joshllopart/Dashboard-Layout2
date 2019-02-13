@@ -6,7 +6,7 @@ export default function RecipientCard() {
   return (
     <div className="RecipientCard">
       <Card>
-        <CardTitle>
+        <CardTitle className="CardTitle">
           John Doe
         </CardTitle>
       </Card>

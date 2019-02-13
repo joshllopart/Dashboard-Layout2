@@ -7,11 +7,11 @@ import MessageCard from '../MessageCard'
 export default function MessageList() {
   return (
     <div>
-    <Card>
-      <CardHeader tag="h3">Featured</CardHeader>
-      <CardBody>
+    <Card className="Card">
+      <CardHeader className="Active-Messages" tag="h3">Active Messages</CardHeader>
+      <CardBody className="CardBody">
         <div className='message-list'>
-          <MessageCard />
+          <MessageCard /> 
         </div>
 
       </CardBody>

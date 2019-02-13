@@ -8,7 +8,7 @@ export default function MyNav() {
   return (
     <div className="Mynav">
       <Navbar color="light" light expand='md'>
-        <NavbarBrand>Welcome User</NavbarBrand>
+        <NavbarBrand href="/" ClassName="Logo-nav">Evergarden®</NavbarBrand>
         <Nav className='ml-auto'>
           <NavItem>
             <NavLink href='/'>Profile</NavLink>

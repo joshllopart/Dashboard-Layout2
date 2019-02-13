@@ -9,13 +9,13 @@ export default function MessageForm() {
         <Row form>
           <Col md={6}>
             <FormGroup>
-              <Label for='title'>Title</Label>
-              <Input type="title" name='title' placeholder='title'></Input>
+              <Label for='title'></Label>
+              <Input type="title" name='title' placeholder='Title'></Input>
             </FormGroup>
           </Col>
           <Col md={6}>
             <FormGroup>
-              <Label for='date'>Schedule Date</Label>
+              <Label for='date'></Label>
               <Input type='date' name='date'></Input>
             </FormGroup>
           </Col>
@@ -24,7 +24,7 @@ export default function MessageForm() {
           <Label  for='message'></Label>
           <Input className="message-box" type='message' name='message' placeholder="Your message here"></Input>
         </FormGroup>
-        <Button color='info'>Submit</Button>
+        <Button className="submit-button" color='info'>Submit</Button>
       </Form>
     </div>
 

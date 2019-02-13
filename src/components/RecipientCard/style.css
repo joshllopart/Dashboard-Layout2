@@ -1,3 +1,11 @@
 .RecipientCard {
     margin: 10px 0px;
+    font-weight: bold;
+    color: #8C60DA;
+    font-size: 16px;
+}
+
+.CardTitle {
+    padding-top:10px;
+    padding-left:18px;
 }

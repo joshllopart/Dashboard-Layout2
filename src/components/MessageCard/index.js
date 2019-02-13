@@ -7,8 +7,8 @@ export default function MessageCard() {
     <div className="MessageCard">
       <ListGroup>
         <ListGroupItem>
-          <ListGroupItemHeading>Some title</ListGroupItemHeading>
-          <ListGroupItemText>nkjbnwekjcnkjwfbnfjkwbfkjwehfkjwhfkwjhfkwjvhwjdkvbwkjvbw wdkjbcjwbcjw  hbckjwbcj s huiwbvcsc a message</ListGroupItemText>
+          <ListGroupItemHeading ClassName="Message-Card-Title">Some title</ListGroupItemHeading>
+          <ListGroupItemText ClassName="Message-Card-Message">This is a random message</ListGroupItemText>
         </ListGroupItem>
       </ListGroup>
     </div>

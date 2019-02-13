@@ -1,4 +1,18 @@
 .message-list{
-    background-color: lightgray;
-    margin-top: 8%;
+    margin-top: 3%;
+}
+
+.Active-Messages {
+    background-color: #2FACC9;
+    color: white;
+    font-size: 20px;
+}
+
+.Card {
+    margin-top: 5%;
+}
+
+.CardBody {
+    padding-top: 0%;
+    margin-top:0%;
 }
